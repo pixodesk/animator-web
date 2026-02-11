@@ -14,9 +14,6 @@
       "types": "./dist/index.d.ts"
     }
   },
-  "files": [
-    "dist"
-  ],
   "scripts": {
     "prepare": "npm run build",    
     "lint": "eslint src/",
