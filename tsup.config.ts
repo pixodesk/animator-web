@@ -23,6 +23,7 @@ export default defineConfig([
         format: ['esm', 'cjs', 'iife'],
         globalName: 'PixodeskAnimator',
         dts: false,
+        clean: false,
         sourcemap: false,
         minify: 'terser',
         outExtension({ format }) {
